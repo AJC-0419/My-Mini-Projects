@@ -1,4 +1,4 @@
-# My-Projects
+# My Mini Projects
 
 This is my project's repository. This will serve as a practice for me, focusing on projects for Python, Java, and C!
 
