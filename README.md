@@ -7,3 +7,7 @@ A file will be created with the headers: Date, Time, Mood, Description, and Inte
 1. New Entry - One can enter what their current mood is, why that mood is, and how intense it is; that automatically appends it to the file following the headers (time and date automated). Errors are accounted for if the input is not among the choices (ie, user input & intensity)
 2. Check the file - See the contents of the tracker as to what entries are made
 3. Quit - exit the program
+
+
+ORGANIZER:
+A file that helps you organize your current directory. Simply drag and drop the python file, ensure that you have a python installed. And then run it to organize your files into folders.
