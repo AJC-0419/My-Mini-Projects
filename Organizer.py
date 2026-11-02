@@ -19,12 +19,15 @@ file_type = {
     "Excel": (".xls", ".xlsx")
 }
 
-text_path.mkdir(exist_ok=True, parents=True)
-images_path.mkdir(exist_ok=True, parents=True)
-pdf_path.mkdir(exist_ok=True, parents=True)
-word_path.mkdir(exist_ok=True, parents=True)
-excel_path.mkdir(exist_ok=True, parents=True)
-other_path.mkdir(exist_ok=True, parents=True)
+if text_path.exists() and images_path.exists() and pdf_path.exists() and word_path.exists() and excel_path.exists() and other_path.exists():
+    print("All folders already exist.")
+else:
+    text_path.mkdir(exist_ok=True, parents=True)
+    images_path.mkdir(exist_ok=True, parents=True)
+    pdf_path.mkdir(exist_ok=True, parents=True)
+    word_path.mkdir(exist_ok=True, parents=True)
+    excel_path.mkdir(exist_ok=True, parents=True)
+    other_path.mkdir(exist_ok=True, parents=True)
 
 for file in lib_path.iterdir():
     if file.is_dir():
